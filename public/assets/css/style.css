@@ -80,6 +80,10 @@ body {
   font-family: var(--fontFamily);
 }
 
+.black-text {
+  color: var(--blackColor);
+}
+
 .container-fluid{
   max-width: 1560px;
 }
@@ -1097,6 +1101,20 @@ Features Area CSS
 .features-section .feature-box p{
   font-size: 17px;
 }
+/* Inner background + text color on hover */
+.features-section .feature-box:hover {
+  background-color: var(--mainColor2); /* bright blue */
+  color: var(--whiteColor);
+}
+
+.features-section .feature-box:hover h3,
+.features-section .feature-box:hover p,
+.features-section .feature-box:hover .icon,
+.features-section .feature-box:hover span {
+  color: var(--whiteColor);
+}
+
+
 
 /*================================================
 Features Area 2 CSS
@@ -1194,7 +1212,7 @@ About Area CSS
 }
 
 .about-content h2 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 55px;
   margin-bottom: 20px;
 }
@@ -1675,7 +1693,7 @@ Team Area CSS
 }
 
 .team-content h2 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 55px;
   margin-bottom: 20px;
 }
@@ -1891,7 +1909,7 @@ Gallery Area CSS
 }
 
 .gallery-section h2{
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 55px;
 }
 
@@ -1906,7 +1924,7 @@ Gallery Area CSS
 }
 
 .gallery-section .controls ul li{
-  color: #f1f1f1;
+  color: var(--blackColor);
   opacity: .7;
   background: transparent;
   display: inline;
@@ -3255,7 +3273,7 @@ Service Area CSS
 .content-title h2 {
   font-size: 55px;
   margin-bottom: 30px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
 }
 
 .content-title p {
@@ -3305,7 +3323,7 @@ Service Area CSS
   font-size: 24px;
   margin-bottom: 5px;
   line-height: 31px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
 }
 
 .process-wrap .process-content .process-item-wrap .process-item .process-info p {
@@ -3334,7 +3352,7 @@ Service Area CSS
   padding: 20px 20px 20px 60px;
   margin-bottom: 15px;
   font-size: 17px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   transition: var(--transition);
   border: 1px solid #1a243d;
   backdrop-filter: blur(6.5px);
@@ -5143,7 +5161,7 @@ Contact Area CSS
 
 .contact-content h2 {
   font-size: 55px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   margin-bottom: 30px;
 }
 
@@ -5218,18 +5236,18 @@ Contact Area CSS
 }
 
 .contact-info-box i {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 40px;
   display: block;
   margin-bottom: 50px;
 }
 .contact-info-box h4 {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   margin-bottom: 12px;
 }
 
 .contact-info-box h4 a{
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 20px;
 }
 

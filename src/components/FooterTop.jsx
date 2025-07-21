@@ -19,7 +19,7 @@ function FooterTop() {
                                 <div className="logo">
                                     <h2>MeetAIsadf</h2>
                                 </div>
-                                <p>Aithm is poised to revolutionize the way we live and work, offering unprecedented possibilities for innovation and efficiency.</p>
+                                <p>MagbrainAi is is poised to revolutionize the way we live and work, offering unprecedented possibilities for innovation and efficiency.</p>
                                 <ul>
                                     <li><a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="bx bxl-facebook"></i></a></li>
                                     <li><a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><i className="bx bxl-instagram"></i></a></li>

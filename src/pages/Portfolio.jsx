@@ -6,10 +6,10 @@ import ProjectSection from '../components/ProjectSection';
 import Brands from '../components/Brands';
 function Portfolio() {
       useEffect(() => {
-        document.body.classList.add('dark-theme');
+        // document.body.classList.add('dark-theme');
          window.$('.owl-carousel').owlCarousel({ /* options */ });
         return () => {
-          document.body.classList.remove('dark-theme');
+          // document.body.classList.remove('dark-theme');
         };
       }, []);
   return (

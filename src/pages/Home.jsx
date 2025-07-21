@@ -15,10 +15,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 function Home() {
   useEffect(() => {
-    document.body.classList.add('dark-theme');
+    // document.body.classList.add('dark-theme');
      window.$('.owl-carousel').owlCarousel({ /* options */ });
     return () => {
-      document.body.classList.remove('dark-theme');
+      // document.body.classList.remove('dark-theme');
     };
   }, []);
 

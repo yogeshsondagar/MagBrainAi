@@ -12,7 +12,7 @@ function HeroSection() {
                                 <p>Magbrain ChatAgent Generator</p>
                             </div>
                             <h2> 
-                                <span data-aos="fade-up" data-aos-duration="1000">Create beautiful art with</span> 
+                                <span className="black-text" data-aos="fade-up" data-aos-duration="1000" >Create beautiful art with</span> 
                                 <span className="sub-head" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">Artificial Intelligence</span>
                             </h2>
                             <div className="image-generator-box"> 

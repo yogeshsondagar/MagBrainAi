@@ -2,7 +2,7 @@ import React from 'react'
 import features from './utils/FeatureData'
 function Features() {
   return (
-    <div className="features-section-2 pt-100 pb-70">
+    <div className="features-section pt-100 pb-70">
       <div className="container">
         <div className="row">
           {features.map((feature) => (
