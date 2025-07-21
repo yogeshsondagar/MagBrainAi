@@ -1,8 +1,8 @@
 const contactInfo = [
   {
     icon: "fi fi-tr-phone-call",
-    link: "tel:+0123456789102",
-    text: "+012-3456-789102",
+    link: "tel:+919106763687",
+    text: "+91 91067 63687",
     label: "Phone",
   },
   {

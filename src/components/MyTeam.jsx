@@ -1,3 +1,5 @@
+// This jsx file is not used in the project, but it is a part of the codebase.
+
 import React from "react";
 import teamMembers from "./utils/teamMembers";
 

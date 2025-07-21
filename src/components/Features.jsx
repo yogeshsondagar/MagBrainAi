@@ -6,7 +6,7 @@ function Features() {
       <div className="container">
         <div className="row">
           {features.map((feature) => (
-            <div className="col-xl-3 col-lg-6 col-sm-6" key={feature.title}>
+            <div className="col-xl-3 col-lg-6 col-sm-6 d-flex" key={feature.title}>
               <div className="feature-box" data-aos="fade-up" data-aos-delay={feature.delay}>
                 <span>Ai Features</span>
                 <div className="icon">

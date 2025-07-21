@@ -9,12 +9,12 @@ function ContactSection() {
           <div className="col-lg-6">
             <div className="contact-content">
               <div className="sub-title-2">
-                <p>Contact Us</p>
+                <p>Support</p>
               </div>
-              <h2>Let’s Start Working Together. Get in Touch</h2>
+              <h2>Need Help? We’re Here for You.</h2>
               <p>
-                Get in touch to discuss your employee wellbeing needs today.
-                Please give us a call, drop us an email.
+                Whether you're setting up your AI agent, integrating your API, or exploring analytics — our support team and resources are ready to guide you. <br />
+                MagBrain AI is built for ease, but we’re just a click away if you need us.
               </p>
             </div>
           </div>

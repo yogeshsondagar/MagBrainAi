@@ -16,11 +16,11 @@ function Contact() {
     <div>
       <Header />
       <PageBanner
-        title="Contact Us"
+        title="Support"
         backgroundClass="sbg-1"
         breadcrumbs={[
           { name: "Home", link: "/" },
-          { name: "Contact Us" }
+          { name: "Support" }
         ]}
       />
       <ContactSection />

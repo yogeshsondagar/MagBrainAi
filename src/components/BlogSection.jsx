@@ -2,7 +2,7 @@ import React from 'react'
 import blogPosts from './utils/blogPosts'
 function BlogSection() {
   return (
-    <div className="blog-section-2 pb-100">
+    <div className="blog-section-2 ptb-100">
       <div className="container">
         <div className="blog-content-2">
           <div className="row align-items-center">

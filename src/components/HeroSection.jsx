@@ -9,11 +9,11 @@ function HeroSection() {
                         <div className="hero-content-2">
                             <div className="sub-title-2" data-aos="fade-zoom-in"
                             data-aos-duration="3000" data-aos-delay="400">
-                                <p>Magbrain ChatAgent Generator</p>
+                                <p>Build Smarter Conversations. Automatically.</p>
                             </div>
                             <h2> 
-                                <span className="black-text" data-aos="fade-up" data-aos-duration="1000" >Create beautiful art with</span> 
-                                <span className="sub-head" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">Artificial Intelligence</span>
+                                <span className="black-text" data-aos="fade-up" data-aos-duration="1000" >From FAQs to Full Conversations</span> 
+                                <span className="sub-head" data-aos="fade-up" data-aos-duration="2000" data-aos-offset="200">AI Handles it</span>
                             </h2>
                             <div className="image-generator-box"> 
                                     <div className="searchbox" data-aos="fade-zoom-in"

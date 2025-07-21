@@ -25,7 +25,7 @@ function About() {
           { name: "About us" }
         ]}
       />
-      <AboutUsSection1 containerClass="pt-100 ptb-50"  buttonText="Learn More"/>
+      <AboutUsSection1 containerClass="pt-100 ptb-50"  showButton={false}/>
       <Brands />
       <WorkingProcess />
       <Testimonial />

@@ -1,6 +1,6 @@
 import React from "react";
 
-function AboutUsSection1({ containerClass = "", contentTitle, subTitle, buttonLink, buttonText }) {
+function AboutUsSection1({ containerClass = "", contentTitle, subTitle, showButton = true }) {
   return (
     <div className={`about-section ptb-100 ${containerClass}`}>
       <div className="container">
@@ -19,19 +19,21 @@ function AboutUsSection1({ containerClass = "", contentTitle, subTitle, buttonLi
               <div className="sub-title-2">
                 <p>{subTitle || "What MagbrainAi Do"}</p>
               </div>
-              <h2>{contentTitle || "Create your own AI business easily."}</h2>
+              <h2>{contentTitle || "Train It. Deploy It. Let AI Speak for You."}</h2>
               <p>
-                AI systems can analyze data, recognize patterns, make decisions, and even adapt and improve
-                over time. Whether it's speech recognition, image processing, or problem solving.
+                MagBrain AI helps businesses create their own custom-trained AI agents that can instantly answer customer questions, automate routine support, 
+                and provide insights that drive growth. No coding required — just plug in your content, and watch your AI agent go to work.
               </p>
               <ul>
-                <li><i className="bx bx-check"></i> Natural Language Processing</li>
-                <li><i className="bx bx-check"></i> AI refers to the simulation of human</li>
-                <li><i className="bx bx-check"></i> Generating art, music, and literature.</li>
+                <li><i className="bx bx-check"></i>  Custom Training on Your Data</li>
+                <li><i className="bx bx-check"></i> Client-Specific API for Deployment</li>
+                <li><i className="bx bx-check"></i> Analytics That Power Strategy</li>
               </ul>
-              <a className="default-btn" href={buttonLink || "about.html"}>
-                <span>{buttonText || "About Us"}</span> <i className="bx bx-chevron-right"></i>
-              </a>
+                {showButton && (
+                  <a className="default-btn" href={"/about"}>
+                    <span>{"About Us"}</span> <i className="bx bx-chevron-right"></i>
+                  </a>
+                )}
             </div>
           </div>
         </div>

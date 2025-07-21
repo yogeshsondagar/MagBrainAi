@@ -12,7 +12,7 @@ const navItems = [
   },
   {
     label: 'About Us',
-    link: 'about',
+    link: '/about',
   },
   {
     label: 'Portfolio',
@@ -41,8 +41,8 @@ const navItems = [
     ],
   },
   {
-    label: 'Contact',
-    link: '/contact',
+    label: 'Support',
+    link: '/support',
   },
 ];
 

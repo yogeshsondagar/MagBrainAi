@@ -665,7 +665,7 @@ Hero Area 2 CSS
 .hero-content-2 .short-prompt ul li p {
   font-size: 16px;
   font-weight: 500;
-  color: var(--whiteColor);
+  color: var(--blackColor);
 }
 
 .hero-content-2 .short-prompt ul li a {
@@ -674,7 +674,7 @@ Hero Area 2 CSS
   font-family: var(--headingFont);
   font-size: 15px;
   font-weight: 500;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   border-radius: 5px;
   position: relative;
 }
@@ -1101,9 +1101,9 @@ Features Area CSS
 .features-section .feature-box p{
   font-size: 17px;
 }
-/* Inner background + text color on hover */
+
 .features-section .feature-box:hover {
-  background-color: var(--mainColor2); /* bright blue */
+  background-color: var(--mainColor); 
   color: var(--whiteColor);
 }
 

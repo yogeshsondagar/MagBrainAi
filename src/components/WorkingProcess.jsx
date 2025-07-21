@@ -1,8 +1,26 @@
 import React from 'react'
 
+const processData = [
+  {
+    step: "01",
+    title: "Train Your Agent",
+    description: "Upload your FAQs, product information, documents, and tone preferences. Our system will build an AI agent trained just for you."
+  },
+  {
+    step: "02",
+    title: "Deploy via API or Widget",
+    description: "Embed your custom agent on your website, product, or platform using your unique API key or JavaScript snippet."
+  },
+  {
+    step: "03",
+    title: "Track & Improve with Insights",
+    description: "Access real-time analytics to understand customer behavior, improve your services, and retrain your agent as needed."
+  }
+];
+
 function WorkingProcess() {
   return (
-    <div className="process-wrap pt-50 pb-50">
+    <div className="process-wrap pt-50 pb-100">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
@@ -11,31 +29,21 @@ function WorkingProcess() {
                                 <div className="sub-title-2">
                                     <p>Working Process</p>
                                 </div>
-                                <h2>Get Images of from 3 simple process</h2>
-                                <p>They evolve and learn from experiences. Benefit from adaptive algorithms that continuously improve performance:</p>
+                                <h2>From Idea to Intelligent Agent — In Minutes.</h2>
+                                <p>MagBrain AI makes it effortless to build, train, and launch your own AI assistant. 
+                                    Whether you're solving support queries or engaging website visitors, our process is designed to be simple, 
+                                    fast, and scalable for every business.</p>
                             </div>
-                            <div className="process-item-wrap">
-                                <div className="process-item">
-                                    <span>01</span>
-                                    <div className="process-info">
-                                        <h4>Intelligent Automation</h4>
-                                        <p>Experience the power of intelligent automation as our AI services streamline your workflows.</p>
+                            <div className='process-item-wrap'>
+                                {processData.map((item, index) => (
+                                    <div className="process-item" key={index}>
+                                        <span>{item.step}</span>
+                                        <div className="process-info">
+                                            <h4>{item.title}</h4>
+                                            <p>{item.description}</p>
+                                        </div>
                                     </div>
-                                </div>
-                                <div className="process-item">
-                                    <span>02</span>
-                                    <div className="process-info">
-                                        <h4>Predictive Analytics</h4>
-                                        <p>Uncover valuable insights, trends, and patterns to make informed decisions that drive business growth.</p>
-                                    </div>
-                                </div>
-                                <div className="process-item">
-                                    <span>03</span>
-                                    <div className="process-info">
-                                        <h4>Enhanced Security</h4>
-                                        <p>AI services fortify your digital infrastructure. Utilize advanced algorithms to detect and mitigate potential threats</p>
-                                    </div>
-                                </div>
+                                ))}
                             </div>
                         </div>
                     </div>

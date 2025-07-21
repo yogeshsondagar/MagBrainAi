@@ -1,3 +1,5 @@
+// This jsx file is not used in the project, but it is a part of the codebase.
+
 import React from 'react'
 import galleryImages from './utils/galleryImages';
 function Gallery() {
@@ -6,7 +8,7 @@ function Gallery() {
       <div className="container">
         <div className="section-title-2" data-aos="fade-up" data-aos-delay="100">
           <div className="sub-title-2">
-            <p>Aithm Creation</p>
+            <p>Magbrain Creation</p>
           </div>
           <h2>Unveil New Creative Horizons with Models</h2>
         </div>

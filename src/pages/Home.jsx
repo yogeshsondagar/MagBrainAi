@@ -4,7 +4,6 @@ import HeroSection from '../components/HeroSection';
 import Features from '../components/Features';
 import AboutUsSection1 from '../components/AboutUsSection1';
 import Brands from '../components/Brands';
-import Gallery from '../components/Gallery';
 import Testimonial from '../components/Testimonial';
 import BlogSection from '../components/BlogSection';
 import FooterTop from '../components/FooterTop';  
@@ -28,7 +27,6 @@ function Home() {
       <Features />
       <AboutUsSection1 containerClass="pt-0"/>
       <Brands />
-      <Gallery />
       <Testimonial />     
       <BlogSection />
       <FooterTop />
