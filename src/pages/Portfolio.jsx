@@ -17,7 +17,7 @@ function Portfolio() {
       <Header />
         <PageBanner
         title="Portfolio"
-        backgroundClass="sbg-5"
+        backgroundClass="sbg-1"
         breadcrumbs={[
           { name: "Home", link: "/" },
           { name: "Portfolio" }

@@ -17,7 +17,7 @@ function Contact() {
       <Header />
       <PageBanner
         title="Contact Us"
-        backgroundClass="sbg-5"
+        backgroundClass="sbg-1"
         breadcrumbs={[
           { name: "Home", link: "/" },
           { name: "Contact Us" }

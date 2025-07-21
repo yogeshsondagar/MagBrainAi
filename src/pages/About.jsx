@@ -19,7 +19,7 @@ function About() {
       <Header />
     <PageBanner
         title="About Us"
-        backgroundClass="sbg-5"
+        backgroundClass="sbg-1"
         breadcrumbs={[
           { name: "Home", link: "/" },
           { name: "About us" }

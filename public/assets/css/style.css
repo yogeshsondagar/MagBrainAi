@@ -2162,7 +2162,7 @@ Blog Area CSS
 
 .blog-section-2 .blog-content-2 h2 {
   font-size: 55px;
-  color: var(--whiteColor);
+  color: var(--blackColor);
   margin-bottom: 20px;
 }
 
@@ -2453,7 +2453,7 @@ Blog Area CSS
 }
 
 .blog-card .blog-info h3 a {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 28px;
 }
 
@@ -2462,7 +2462,7 @@ Blog Area CSS
 }
 
 .blog-card .blog-info .btn-link {
-  color: var(--whiteColor);
+  color: var(--blackColor);
   font-size: 18px;
 }
 
@@ -3537,6 +3537,7 @@ Section Banner Area CSS
 .sbg-1{
   background-image: url(../img/banner/section-bg-1.png);
 }
+
 .sbg-2{
   background-image: url(../img/banner/section-bg-2.png);
 }
@@ -3561,6 +3562,8 @@ Section Banner Area CSS
 .sbg-9{
   background-image: url(../img/banner/section-bg-9.png);
 }
+
+
 
 .section-banner .banner-content h2{
   font-size: 55px;
