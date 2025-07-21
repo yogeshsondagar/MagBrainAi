@@ -73,7 +73,7 @@ function Footer() {
           <div className="row">
             <div className="col-xl-4 col-lg-5">
               <div className="cpr-left">
-                <p>Copyright© {new Date().getFullYear()} Magbrain. All rights reserved.</p>
+                <p>Copyright© {new Date().getFullYear()} MagbrainAi. All rights reserved.</p>
               </div>
             </div>
             <div className="col-xl-8 col-lg-7">

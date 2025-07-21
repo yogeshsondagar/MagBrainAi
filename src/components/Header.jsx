@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <div>
-      <div className="navbar-area" id="navbar">
+      <div className="navbar-area style-2" id="navbar">
         <div className="container">
           <nav className="navbar navbar-expand-lg">
             <a className="navbar-brand" href="/">
